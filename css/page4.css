@@ -1,0 +1,40 @@
+body {
+    /* 子元素位置 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* 重置样式 */
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.a {
+    /* 样式 */
+    width: 80%;
+    height: 1004px;
+}
+.content{
+    width: 100%;
+    height: 60%;
+}
+.b {
+    width: 100%;
+    height: 20%;
+    background-color: #46FFE3;
+}
+
+.c {
+    width: 20%;
+    height: 100%;
+    background-color: #CFFF86;
+    float: left;
+}
+
+.d {
+    width: 80%;
+    height: 100%;
+    background-color: #A4FFA3;
+    float: left;
+}

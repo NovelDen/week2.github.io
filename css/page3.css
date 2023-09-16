@@ -1,0 +1,31 @@
+body {
+    /* 子元素位置 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* 重置样式 */
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.a {
+    /* 样式 */
+    width: 80%;
+    height: 1004px;
+}
+
+.b {
+    width: 20%;
+    height: 100%;
+    background-color: #46FFE3;
+    float: left;
+}
+
+.c {
+    width: 80%;
+    height: 100%;
+    background-color: #A4FFA3;
+    float: left;
+}

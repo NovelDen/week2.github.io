@@ -1,0 +1,135 @@
+/* 字体样式 */
+.nav-info,a {
+    color: #fff;
+    font: 900 20px '';
+    text-align: center;
+}
+
+.nav-head .nav-info {
+    width: 80px;
+    height: 25px;
+}
+
+.nav-b .nav-info {
+    width: 50px;
+}
+a{
+    text-decoration: none;
+}
+/* 主块 */
+.nav-box {
+    /* 鼠标移入变手 */
+    cursor: pointer;
+    /* 样式 */
+    background-color: #00f0f0;
+    border-radius: 60px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+    transition: .5s;
+    transition: background-color 1s;
+    /* 设置位置 */
+    position: fixed;
+    width: 120px;
+    top: 20%;
+    left: 1%;
+    text-align: center;
+    
+}
+
+/* 主块鼠标移入改变样式 */
+.nav-box:hover {
+    background-color: #41F7D8;
+}
+
+/* 头块 */
+.nav-head {
+    width: 120px;
+    height: 120px;
+    position: relative;
+    border-radius: 50%;
+}
+
+/* 调整字体居中 */
+.nav-head .nav-info,
+.nav-b .nav-info {
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.nav-b .nav-info {
+    height: 25px;
+    z-index: 10;
+}
+
+.nav-b {
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    opacity: 0;
+}
+
+/* .nav-b:hover{
+            box-shadow: 0 0 0 10px rgba(255, 255, 255, .3);
+        } */
+.nav-box .nav-b {
+    border-radius: 15px;
+}
+
+.nav-info {
+    position: relative;
+}
+
+.nav-b span {
+    position: relative;
+    top: 48px;
+}
+
+span {
+    color: #fff;
+    font: 900 20px '';
+}
+
+/* 背景板 */
+.nav-back {
+    width: 100px;
+    height: 100px;
+    background-color: #72FBBC;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: .5s;
+}
+
+/* 设置过渡 */
+.nav-box .nav-b {
+    height: 0px;
+}
+
+.nav-box:hover .nav-b {
+    height: 120px;
+}
+
+.nav-b {
+    transition: .5s;
+}
+
+.nav-box:hover .nav-b {
+    opacity: 1;
+}
+
+.nav-b:hover {
+    opacity: 1;
+}
+
+.nav-b:hover .nav-back {
+    opacity: 1;
+}
